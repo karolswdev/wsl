@@ -63,7 +63,7 @@ Setting this WSL container as default terminal will ensure that by default, you 
 
 </details>
 
-#### 🛠️ Install ⏬ `.NET 8`
+### 🛠️ Install ⏬ `.NET 8`
 
 ```bash
 sudo apt-get update && \
@@ -77,7 +77,7 @@ sudo apt-get install -y dotnet-sdk-8.0
 
 </details>
 
-#### ⚒️ 👓 Install `Windows Terminal` fonts ✍️
+### ⚒️ 👓 Install `Windows Terminal` fonts ✍️
 
 Download the following font files:
 
@@ -114,7 +114,7 @@ Save and enjoy ⏭️
 
 </details>
 
-#### 🤫 Add current user to `sudoers`
+### 🤫 Add current user to `sudoers`
 
 Controversial, but this is how I roll 🤷
 
@@ -137,7 +137,7 @@ Or any other command...
 
 </details>
 
-#### 🤓 Install 🌒 `Midnight Commander` 🌓 - ✅ 
+### 🤓 Install 🌒 `Midnight Commander` 🌓 - ✅ 
 
 🌒 `Midnight Commander` (`mc`) 🌓 is a file manager for the command line that provides a user-friendly interface for navigating and managing files and directories. 
 It can be useful for tasks such as copying, finding, moving, editing files, as well as performing advanced file operations.
@@ -159,7 +159,7 @@ sudo apt install mc -y
 ![Installing mc](img/install-mc.gif)
 </details>
 
-#### Add 🎰 `Zsh` with 🚀 `Oh-My-Zsh` - ✅ 
+### Add 🎰 `Zsh` with 🚀 `Oh-My-Zsh` - ✅ 
 
 `Zsh` is a powerful shell that offers advanced features and customization options. 
 `Oh My Zsh` is a framework for managing Zsh configurations, providing a wide range of plugins and themes to enhance the shell experience. 
@@ -191,7 +191,7 @@ When prompted, change your default shell to `zsh`
 
 </details>
 
-##### 🪞 Making `Oh-My-Zsh` pretty
+### 🪞 Making `Oh-My-Zsh` pretty
 
 * with `powerlevel10k`
 
@@ -224,5 +224,85 @@ When prompted, change your default shell to `zsh`
     ![powerlevel10k in use](img/powerel10k-in-use-with-git.gif)
 
     </details>
+
+
+### 🌔🚀 Install `LunarVim`
+
+LunarVim is an amazing editor that brings the power of Neovim to your fingertips. With LunarVim, you can work in the terminal with the same efficiency as any other GUI IDE. It provides a highly customizable and extensible environment, allowing you to tailor your editing experience to your specific needs. Whether you're a beginner or an experienced developer, LunarVim offers a seamless and productive workflow, making it a top choice for many programmers.
+
+First, we need `neovim`, the base.
+```bash
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+```
+
+Add `neovim` to path. Open `~/.zshrc` in an editor (`mcedit`) and add the following at the end of the file
+
+```bash
+export PATH="$PATH:/opt/nvim-linux64/bin"
+```
+
+Re-source your shell
+
+```bash
+source ~/.zshrc
+```
+
+Check that `nvim` is available now.
+
+<details style="margin-bottom: 10px">
+<summary>Installing neovim gif</summary>
+
+![Installing neovim](img/install-neovim.gif)
+
+</details>
+
+🌕 Moon Mission time 🚀, install `LunarVim`
+
+* Install `lvim`
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+```
+
+<details style="margin-bottom: 10px;">
+<summary>Installing lvim gif</summary>
+
+![Installing LunarVim](img/install-lvim.gif)
+
+</details>
+
+* Add `/home/{user}/.local/bin` to `$PATH` by editing your `~/.zshrc` file
+
+* Source `~/.zshrc` to read in 
+
+<details style="margin-bottom: 10px;">
+<summary>Adding lvim to PATH gif</summary>
+
+![Adding lvim to PATH](img/add-lvim-path.gif)
+
+</details>
+
+* Install `C#` into `lvim` language cache
+
+* Open up any document, or open up `lvim` in editing mode (e.g. `lvim .`)
+
+* Start typing `:` (colon - this activates command mode) and type 
+
+`TSInstall c_sharp`
+
+* C# syntax highlighting is now installed
+
+<details style="margin-bottom: 10px;">
+<summary>Adding lvim to PATH gif</summary>
+
+![Adding csharp](img/install-lvim-csharp-language.gif)
+
+</details>
+
+
+
+
 
 
