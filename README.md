@@ -15,7 +15,7 @@ wsl --install -d Ubuntu-24.04
 ```
 
 <details style="margin-bottom: 10px;">
-<summary>Installing WSL gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing WSL gif</summary>
 
 ![Installing WSL](img/install-wsl.gif)
 
@@ -33,7 +33,7 @@ wsl --install -d Ubuntu-24.04
 * Click on `Apply & restart`
 
 <details>
-<summary>WSL Integration GIF</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">WSL Integration GIF</summary>
 
 ![Enabling WSL Integration](img/enabling-wsl-integration.gif)
 
@@ -57,7 +57,7 @@ Setting this WSL container as default terminal will ensure that by default, you 
 * Apply this setting
 
 <details>
-<summary>Applying default profile settings gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Applying default profile settings gif</summary>
 
 ![Configuring wt](img/configuring-wt.gif)
 
@@ -71,7 +71,7 @@ sudo apt-get install -y dotnet-sdk-8.0
 ```
 
 <details>
-<summary>Installing dotnet gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing dotnet gif</summary>
 
 ![Installing dotnet](img/install-dotnet.gif)
 
@@ -89,7 +89,7 @@ Download the following font files:
 Double click on each of the fonts in the download location and install it on your system.
 
 <details style="margin-bottom: 10px;">
-<summary>Installing MesloLGS NF fonts gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing MesloLGS NF fonts gif</summary>
 
 
 ![Installing fonts](img/install-fonts.gif)
@@ -108,7 +108,7 @@ Under `Font face`, click on `Show all fonts` and select `MesloLGS NF`
 Save and enjoy ⏭️
 
 <details style="margin-bottom: 10px;">
-<summary>Configuring fonts in Windows Terminal gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Configuring fonts in Windows Terminal gif</summary>
 
 ![Configuring fonts in wt](img/configuring-fonts.gif)
 
@@ -143,7 +143,7 @@ Or any other command...
 It can be useful for tasks such as copying, finding, moving, editing files, as well as performing advanced file operations.
 
 <details style="margin-bottom: 10px;">
-<summary>Using mc gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Using mc gif</summary>
 
 ![Using mc](img/using-mc.gif)
 </details>
@@ -154,7 +154,7 @@ sudo apt install mc -y
 ```
 
 <details>
-<summary>Installing mc gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing mc gif</summary>
 
 ![Installing mc](img/install-mc.gif)
 </details>
@@ -170,7 +170,7 @@ sudo apt install zsh -y
 ```
 
 <details style="margin-bottom: 10px;">
-<summary>Installing zsh gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing zsh gif</summary>
 
 ![Installing zsh](img/install-zsh.gif)
 
@@ -185,7 +185,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 When prompted, change your default shell to `zsh`
 
 <details>
-<summary>Installing oh-my-zsh gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing oh-my-zsh gif</summary>
 
 ![Installing Oh-My-Zsh](img/install-oh-my-zsh.gif)
 
@@ -209,7 +209,7 @@ When prompted, change your default shell to `zsh`
     Answer the prompts in the terminal and customize your terminal experience.
 
     <details style="margin-bottom: 10px;">
-    <summary>applying powerlevel10k gif</summary>
+    <summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">applying powerlevel10k gif</summary>
 
     ![applying powerlevel10k](img/applying-powerlevel10k.gif)
     </details>
@@ -219,7 +219,7 @@ When prompted, change your default shell to `zsh`
     `powerlevel10k` is very useful for `git` operations, as it displays important information such as `branch` and `status` right at the prompt level.
 
     <details>
-    <summary>small demonstation of powerlevel10k and a git repository gif</summary>
+    <summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">small demonstation of powerlevel10k and a git repository gif</summary>
 
     ![powerlevel10k in use](img/powerel10k-in-use-with-git.gif)
 
@@ -252,7 +252,7 @@ source ~/.zshrc
 Check that `nvim` is available now.
 
 <details style="margin-bottom: 10px">
-<summary>Installing neovim gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing neovim gif</summary>
 
 ![Installing neovim](img/install-neovim.gif)
 
@@ -267,7 +267,7 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/n
 ```
 
 <details style="margin-bottom: 10px;">
-<summary>Installing lvim gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Installing lvim gif</summary>
 
 ![Installing LunarVim](img/install-lvim.gif)
 
@@ -278,7 +278,7 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/n
 * Source `~/.zshrc` to read in 
 
 <details style="margin-bottom: 10px;">
-<summary>Adding lvim to PATH gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Adding lvim to PATH gif</summary>
 
 ![Adding lvim to PATH](img/add-lvim-path.gif)
 
@@ -295,7 +295,7 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/n
 * C# syntax highlighting is now installed
 
 <details style="margin-bottom: 10px;">
-<summary>Adding lvim to PATH gif</summary>
+<summary style="cursor: pointer; padding: 5px; border: 1px solid #d3d3d3; background-color: #f9f9f9; color: #000000;">Adding lvim to PATH gif</summary>
 
 ![Adding csharp](img/install-lvim-csharp-language.gif)
 
